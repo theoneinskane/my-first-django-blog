@@ -1,0 +1,24 @@
+####git ignore file, this is where we list the stuff we want git to ignore
+
+# Python
+*.pyc
+*~
+__pycache__
+
+# Env
+.env
+myenv/
+venv/
+
+# Database
+db.sqlite3
+
+# Static folder at project root
+/static/
+
+# macOS
+._*
+.DS_Store
+.fseventsd
+.Spotlight-V100
+
